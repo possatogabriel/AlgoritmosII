@@ -8,7 +8,7 @@ int triangulo(int a, int b, int c) {
     }
 }
 
-void resultado(valor) {
+void resultado(int valor) {
     if (valor == 1) {
         printf("\n> Existe um triângulo com esses lados.");
     } else if (valor == 0) {
